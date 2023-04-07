@@ -32,27 +32,27 @@ GIVEN a webpage meets accessibility standards
 WHEN I view the source code
 THEN I find semantic HTML elements
 
->Div and other non-semantic elements were replaced with figure and summary to directly correlate with the contained content. 
+- Div and other non-semantic elements were replaced with figure and summary to directly correlate with the contained content. 
 
 WHEN I view the structure of the HTML elements
 THEN I find that the elements follow a logical structure independent of styling and positioning
 
->Semantic additions of header, aside, main and footer consolidate the html code into a logical structure easening the burden of future developers from reverse-inspecting elements to understand HTML formatting.
+- Semantic additions of header, aside, main and footer consolidate the html code into a logical structure easening the burden of future developers from reverse-inspecting elements to understand HTML formatting.
 
 WHEN I view the icon and image elements
 THEN I find accessible alt attributes
 
->Concise alt descriptions were added to all img elements for accessability, including icons contained in the aside section.
+- Concise alt descriptions were added to all img elements for accessability, including icons contained in the aside section.
 
 WHEN I view the heading attributes
 THEN they fall in sequential order
 
->All heading attributes have been altered to follow in sequential order
+- All heading attributes have been altered to follow in sequential order
 
 WHEN I view the title element
 THEN I find a concise, descriptive title
 
->Title of the website has been renamed to: "Horiseon Brand Management and Engagement Website", giving a clear description of the webpage and its contents ahead of inspection.
+- Title of the website has been renamed to: "Horiseon Brand Management and Engagement Website", giving a clear description of the webpage and its contents ahead of inspection.
 
 Additional effort was made to reorganize the classes within the CSS sheet, as to follow the same format as the HTML document. Comments were made seperating them by section, and additional remarks were made on changes between the previous version that may go overlooked if the developer has already worked with the code in the past.
 
